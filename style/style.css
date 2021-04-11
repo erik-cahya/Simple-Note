@@ -1,0 +1,215 @@
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #1F2123;
+    color: white;
+}
+
+.wrapper-logo img{
+    width: 35px;
+    height: auto;
+    margin: 0 15px;
+}
+
+
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-size: 20px;
+}
+
+
+
+.jumbotron{
+    background-image: url(../assets/jumbotronBG.jpg);
+    text-align: center;
+    background-size: cover;
+    height: 560px;
+    position: relative;
+
+}
+
+.jumbotron h5{
+    margin: 30px 0;
+}
+
+.jumbotron a{
+    margin: 20px 0;
+
+}
+
+.jumbotron .container{
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+
+
+@media (min-width: 990px) {
+
+    hr{
+        margin-top: 100px;
+        width: 800px;
+        height: auto;
+        background-color: #ffff;
+    }
+
+    .jumbotron{
+        margin-top: -70px;
+        height: 650px;
+    }
+
+    .jumbotron h1{
+        margin-top: 150px;
+    }
+
+    .jumbotron h5 a{
+        margin: 0px 0;
+    }
+
+
+    .wrapper-features{
+        margin-top: 50px;
+        min-height: 550px;
+
+    }
+
+    .wrapper-features h1{
+        font-family: 'Roboto';
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .wrapper-title{
+        display: flex;
+    }
+    .wrapper-title i{
+        min-width: 45px;
+        color: white;
+        font-size: 35px;
+        margin-right: 20px;
+    }
+    .wrapper-title h4{
+        display: flex;
+        align-items: flex-end;
+        font-size: 20px;
+    }
+
+    .wrapper-content p{
+        width: 500px;
+        margin: 0 65px;
+    }
+
+    .wrapper-content{
+        padding: 20px 0;
+    }
+
+    .wrapper-features .display-4{
+        margin-top: 60px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* Download */
+
+    .wrapper-download{
+        min-height: 750px;
+    }
+
+    .download-content{
+        min-height: 500px;
+    }
+
+    .wrapper-button-download{
+        width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .button-download{
+        margin: 20px 20px;
+        background-color: #3D3F41;
+        width: 335px;
+        height: 100px;
+        border: 1px solid #ffff;
+        padding: 25px 10px;
+    }
+
+
+    .wrapper-logo{
+        display: flex;
+    }
+
+    .wrapper-sub-logo{
+        width: 100px;
+        height: 0;
+    }
+
+    .wrapper-logo img{
+        width: 50px;
+        height: auto;
+    }
+
+    .button-download .wrapper-link a{
+        color: #ffff;
+    }
+
+    .wrapper-link{
+        margin-left: 100px;
+        margin-top: -5px;
+    }
+
+    .wrapper-download h1{
+        width: 280px;
+        font-family: 'Roboto';
+        font-size: 50px;
+        font-weight: 600;
+        text-align:right;
+        margin-top: 50px;
+    }
+
+    .wrapper-download p{
+        width: 250px;
+        font-family: 'Roboto';
+        text-align:right;
+        margin-left: 25px;
+    }
+
+
+    /* Footer */
+    .wrapper-footer{
+        width: 100%;
+        height: 80px;
+    }
+
+    .wrapper-footer a{
+        padding: 0 50px;
+        color: #ffff;
+        font-size: 15px;
+    }
+
+
+
+
+
+}
