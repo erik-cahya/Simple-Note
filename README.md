@@ -1,2 +1,3 @@
 # SimpleNote
 
+Simple Notes Website
