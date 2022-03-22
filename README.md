@@ -1,2 +1,2 @@
 # SimpleNote
-Project Akhir Progress
+
