@@ -1,0 +1,31 @@
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #1F2123;
+    color: white;
+}
+
+.wrapper-container{
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.wrapper-card{
+justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 450px;
+    height: auto;
+    margin: 10px 10px;
+}
+
+
+
+
+
+/* Style View Menu */
